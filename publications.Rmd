@@ -1,0 +1,27 @@
+---
+title: ""
+output: html_document
+---
+<center>
+<table style="width:70%">
+<tr><td>
+<p> </p>
+# Publications
+<p> </p>
+####Articles
+
+Cornelius, C., M. Awade, C. Candia-Gallardo, K. E. Sieving, and J. P. Metzger. 2017. **<a href = "papers/Cornelius_et_al_2017.pdf" target = "_blank">Habitat fragmentation drives inter-population variation in dispersal behavior in a Neotropical rainforest bird</a>**. Perspectives in Ecology and Conservation 15:3–9.
+
+Awade, M., C. Candia-Gallardo, C. Cornelius, and J. P. Metzger. 2017. **<a href = "papers/Awade_et_al_2008.pdf" target = "_blank">High Emigration Propensity and Low Mortality on Transfer Drives Female-Biased Dispersal of *Pyriglena leucoptera* in Fragmented Landscapes</a>**. Plos One 12:e0170493.
+
+Candia-Gallardo, C., L. F. Silveira, and A. A. Kuniy. 2010. **<a href = "papers/Candia-Gallardo_et_al_2010.pdf" target = "_blank">A new population of the Cone-billed Tanager *Conothraupis mesoleuca*, with information on the biology, behaviour and type locality of the species</a>**. Bird Conservation International 20:149–160.
+
+Boscolo, D., C. Candia-Gallardo, M. Awade, and J. P. Metzger. 2008. **<a href = "papers/Boscolo_et_al_2008.pdf" target = "_blank">Importance of Interhabitat Gaps and Stepping-Stones for Lesser Woodcreepers (*Xiphorhynchus fuscus*) in the Atlantic Forest, Brazil</a>**. Biotropica 40:273–276.
+
+Candia-Gallardo, C. 2007. **<a href = "papers/Candia-Gallardo_2007.pdf" target = "_blank">Observations on feeding and habitat use by Crimson Fruitcrow Haematoderus militaris in Amazonian Brazil</a>**. Cotinga 28:82–83.
+<p> </p>
+####Book chapter
+
+Candia-Gallardo, C., M. Awade, D. Boscolo, and L. Bugoni. 2010. **<a href = "papers/Candia-Gallardo_et_al_2010" target = "_blank">Rastreamento de aves através de telemetria por rádio e satélite</a>**. Pages 257–278. In S. Von Matter, F. Straube, I. Accordi, V. Piacentini, and J. F. Cândido-Jr. (orgs.). **<a href = "https://books.google.com.br/books/about/Ornitologia_e_Conserva%C3%A7%C3%A3o.html?id=943ai6ePVzoC&printsec=frontcover&source=kp_read_button&redir_esc=y#v=onepage&q&f=false" target = "_blank">Ornitologia e Conservação: Ciência Aplicada, Técnicas de Pesquisa e Levantamento</a>**. Technical Books, Rio de Janeiro.
+</td></tr>
+</table></center>

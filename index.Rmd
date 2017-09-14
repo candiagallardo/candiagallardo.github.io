@@ -1,0 +1,24 @@
+---
+title: ""
+---
+<br></br>
+<center>
+<table style="width:70%">
+<tr>
+<td><p align="justify">
+##Carlos Candia-Gallardo, PhD.
+
+Welcome to my website. I am a biologist investigating bird and butterfly ecology. I created this website to summarize my research and teaching activities. Check out my posts about biodiversity data analysis using R.
+</p></td>
+</tr>
+<tr>
+<td><p> </p> <td><tr>
+<tr>
+<td><center><img src="pics/plots.png" alt="Plots' pic"></center></td>
+</tr>
+<tr>
+<td>
+<br></br>
+<center> **<a href = "about.html">About</a>** **|** **<a href = "publications.html">Publications</a>** **|** **<a href = "posts.html">Posts</a>** </center></td></tr>       
+</table><center>
+

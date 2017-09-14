@@ -1,0 +1,26 @@
+name: "my-website"
+output_dir: "."
+navbar:
+  title: "Candia-Gallardo"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Publications"
+      href: publications.html
+    - text: "Posts"
+      href: "posts.html"
+  right:
+    - text: "Instagram"
+      icon: fa-instagram
+      href: https://www.instagram.com/carloscandiagallardo/    
+    
+      
+output:
+  html_document:
+    theme: united
+    
+
+    
+    

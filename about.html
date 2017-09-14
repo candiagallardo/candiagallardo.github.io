@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title></title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/united.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs && document.readyState && document.readyState === "complete") {
+   window.setTimeout(function() {
+      hljs.initHighlighting();
+   }, 0);
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = false;
+    options.smoothScroll = false;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+.tocify-subheader {
+  display: inline;
+}
+.tocify-subheader .tocify-item {
+  font-size: 0.95em;
+}
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Candia-Gallardo</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="about.html">About</a>
+</li>
+<li>
+  <a href="publications.html">Publications</a>
+</li>
+<li>
+  <a href="posts.html">Posts</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://www.instagram.com/carloscandiagallardo/">
+    <span class="fa fa-instagram"></span>
+     
+    Instagram
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<p><br></br></p>
+<div id="about" class="section level1">
+<h1>About</h1>
+<table style = "width:70%">
+<tr>
+<td>
+<p align="justify">
+<p><img src="pics/perfil.png" alt="Carlos' pic" style="float:right;width:150px;border:10;"> I am a biologist with a PhD in Ecology. During my academic training I acquired solid skills in scientific research, quantitative analysis and <strong><a href="https://www.r-project.org/" target="_blank">R</a></strong> programming. As a professional ornithologist I acquired extensive field experience in the Atlantic forest, Cerrado and Amazon biomes.</p>
+My main scientific interests are in population and community ecology, ornithology, data science, conservation biology and chronobiology. I am also interested in philosophy of science and quantitative approaches in general. I support initiatives of free sharing of knowledge, such as open source, free software, and creative commons licenses.
+</p>
+</td>
+<tr>
+<td>
+<p>
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="justify">
+Scroll down for information about my education, teaching and professional experience. Access my <strong><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4779985Y2" target="_blank">CV Lattes here</a></strong> (in portuguese).
+</p>
+</td>
+</tr>
+</table>
+<p><br></br></p>
+</div>
+<div id="education" class="section level1">
+<h1>Education</h1>
+<table style="width:69%;">
+<colgroup>
+<col width="8%" />
+<col width="61%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Year</th>
+<th>Degree</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2017</td>
+<td><strong>PhD in Ecology</strong> at the University of Sao Paulo. PhD Thesis: <a href="http://www.teses.usp.br/teses/disponiveis/41/41134/tde-12072017-084936/pt-br.php"><strong>Population and community dynamics of butterflies and birds along time</strong></a>. Held at <a href="http://ecologia.ib.usp.br/let/doku.php">The Theorethical Ecology Lab</a>. Advisor: Prof. Dr. <a href="http://ecologia.ib.usp.br/let/doku.php?id=engl:prado:start">Paulo Inacio Prado</a>. Supported by Coordination for the Improvement of the Higher Level Personnel (<a href="www.capes.gov.br">CAPES</a>) and Sao Paulo Research Foundation (<a href="www.fapesp.br">FAPESP</a>).</td>
+</tr>
+<tr class="even">
+<td>2011</td>
+<td><strong>Master in Ecology</strong> at the University of Sao Paulo. MSc Thesis: <a href="http://www.teses.usp.br/teses/disponiveis/41/41134/tde-10052011-155405/pt-br.php"><strong>The conservation value of forest corridors for birds in fragmented landscapes</strong></a>. Held at the <a href="http://ecologia.ib.usp.br/lepac/index.php?option=com_content&amp;view=article&amp;id=46&amp;Itemid=11">Landscape Ecology and Conservation Lab</a>. Advisor: Prof. Dr. <a href="http://ecologia.ib.usp.br/lepac/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=45&amp;Itemid=63">Jean Paul Metzger</a>. Supported by Coordination for the Improvement of the Higher Level Personnel (<a href="www.capes.gov.br">CAPES</a>), National Council for Scientific and Technological Development (<a href="www.cnpq.gov.br">CNPq</a>), and Federal Ministry for Education and Research (<a href="https://www.bmbf.de/en/index.html">BMBF</a> - Germany).</td>
+</tr>
+<tr class="odd">
+<td>2004</td>
+<td><strong>Bachelor in Biology</strong> at the University of Sao Paulo. Monography: Effects of forest fragmentation on artificial nests predation. Supported by Sao Paulo Research Foundation (<a href="www.fapesp.br">FAPESP</a>).</td>
+</tr>
+<tr class="even">
+<td>2003</td>
+<td><strong>Internship at the Biological Dynamics of Forest Fragments Project</strong> (<a href="http://pdbff.inpa.gov.br/">BDFFP</a> â€“ <a href="www.inpa.gov.br">INPA</a>/<a href="http://www.stri.si.edu/">Smithsonian Institution</a>) in the program Training for Young Scientists in Amazon. Monography: Polination aspects of Psychotria iodotrichia (Rubiaceae) in primary and secondary forests in central Amazon. Supported by the World Wildlife Fund (WWF) and the State University of New York (SUNY).</td>
+</tr>
+</tbody>
+</table>
+<p><br></br></p>
+</div>
+<div id="teaching-experience" class="section level1">
+<h1>Teaching experience</h1>
+<table style="width:71%;">
+<colgroup>
+<col width="16%" />
+<col width="54%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Year</th>
+<th>Experience</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2016 &amp; 2017</td>
+<td>Lecturer in the course <strong><a href="https://ornitologiadecampobutantan.wordpress.com/">Field Ornithology - Birds as bioindicators</a></strong> at the <a href="www.butantan.gov.br">Instituto Butantan</a>, Brazil. Lectures given: <strong>Methods for the study of populations and communities</strong>, <strong>Introduction to radiotracking</strong>, and <strong>Data analysis</strong>.</td>
+</tr>
+<tr class="even">
+<td>2009 to 2017</td>
+<td>Invited lecturer in the course <strong><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4779985Y2" target="_blank">BIZ0304 - Diversity, natural history, and conservation of vertebrates in South America</a></strong> (undergraduate level - Biological Sciences) at the University of Sao Paulo. Participation in the lecture <strong>Techniques for studying birds in the field</strong>.</td>
+</tr>
+<tr class="odd">
+<td>2016</td>
+<td>Teaching assistant (monitor - PAE) in the course <strong>BIE 0320 - Ecology of plant populations and communities</strong> (undergraduate level - Biological Sciences) at the University of Sao Paulo.</td>
+</tr>
+<tr class="even">
+<td>2015</td>
+<td>Invicted lecturer at the course <strong>BIE5730 - Statistical models in population ecology</strong> (graduate level - Ecology) at the University of Sao Paulo. Lecture given: <strong>Using RMark for capture-recapture data analysis</strong>.</td>
+</tr>
+</tbody>
+</table>
+<p><br></br></p>
+</div>
+<div id="awards" class="section level1">
+<h1>Awards</h1>
+<table style="width:70%">
+<tr>
+<td>
+<ul>
+<li><p><strong>Best Master thesis</strong> defended in 2011 in the Ecology Graduate Program, Institute of Biosciences, University of SÃ£o Paulo.</p></li>
+<li><p><strong>Helmut Sick Award</strong> - Best poster presentation at the XII Brazilian Ornithology Congress.</p></li>
+<li><strong>Helmut Sick Award</strong> - Second best poster presentation at the XV Brazilian Ornithology Congress.</li>
+</ul>
+</td>
+<tr>
+</table>
+<p><br></br></p>
+</div>
+<div id="selected-professional-experiences" class="section level1">
+<h1>Selected professional experiences</h1>
+<table style="width:70%">
+<tr>
+<td>
+<ul>
+<li><p>Technical coordinator in <strong>Bird monitoring in primary forest, selective-logged forest and eucalyptus plantations in the Jari river valley, Amazon, Brazil</strong>. Client: Jari Celulose S.A. Consulting company: Ambiens SoluÃ§Ãµes Ambientais.</p></li>
+<li><p>Technical coordinator in <strong>Bird monitoring around the SÃ£o SebastiÃ£o Port, SÃ£o Paulo, Brazil</strong>. Client: CODESP. Consulting company: Ambiens SoluÃ§Ãµes Ambientais &amp; FUNDESPA.</p></li>
+<li><p>Technical coordinator in <strong>Birds, mammals, reptiles and anphibians in reforested areas around TrÃªs IrmÃ£os power plant dam, SÃ£o Paulo, Brazil</strong>. Client: TijoÃ¡ Energia S.A. Consulting Company: Ambiens SoluÃ§Ãµes Ambientais.</p></li>
+<li><p>Technical coordinator in <strong>Bird inventories for the Environmental Impact Assesment of the widening of the BR-101 highway, Espirito Santo, Brasil</strong>. Client: Eco 101. Conculting company: Concremat &amp; Ambiens SoluÃ§Ãµes Ambientais.</p></li>
+<li>Technical coordinator in <strong>Bird monitoring in the Juruena power plants complex. Mato Grosso, Brazil</strong>. Client: Juruena ParticipaÃ§Ãµes e Investimentos S.A. &amp; Maggi Energia. Consulting company: JGP Consultoria e ParticipaÃ§Ãµes Ltda.</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
