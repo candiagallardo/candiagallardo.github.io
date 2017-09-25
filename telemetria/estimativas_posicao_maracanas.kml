@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="estimativas" id="estimativas">
+	<SimpleField name="BadPoint" type="float"></SimpleField>
+	<SimpleField name="Var_X" type="float"></SimpleField>
+	<SimpleField name="Var_Y" type="float"></SimpleField>
+	<SimpleField name="Cov_XY" type="float"></SimpleField>
+	<SimpleField name="AngleDiff" type="float"></SimpleField>
+	<SimpleField name="Date" type="int"></SimpleField>
+	<SimpleField name="Time" type="float"></SimpleField>
+</Schema>
+<Folder><name>estimativas</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#estimativas">
+		<SimpleData name="BadPoint">0</SimpleData>
+		<SimpleData name="Var_X">161103.24771281</SimpleData>
+		<SimpleData name="Var_Y">107080.029844861</SimpleData>
+		<SimpleData name="Cov_XY">-114645.458807718</SimpleData>
+		<SimpleData name="AngleDiff">15.0805278291156</SimpleData>
+		<SimpleData name="Date">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.640746752142334,-9.183992911198644</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#estimativas">
+		<SimpleData name="BadPoint">1</SimpleData>
+		<SimpleData name="Var_X">0</SimpleData>
+		<SimpleData name="Var_Y">0</SimpleData>
+		<SimpleData name="Cov_XY">0</SimpleData>
+		<SimpleData name="AngleDiff">0</SimpleData>
+		<SimpleData name="Date">2</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.637694289546317,-9.192217128775233</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#estimativas">
+		<SimpleData name="BadPoint">0</SimpleData>
+		<SimpleData name="Var_X">2091.37682299872</SimpleData>
+		<SimpleData name="Var_Y">707.15275419678</SimpleData>
+		<SimpleData name="Cov_XY">-491.821534892471</SimpleData>
+		<SimpleData name="AngleDiff">4.32775773392329</SimpleData>
+		<SimpleData name="Date">2</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.62518950399803,-9.192315085227</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#estimativas">
+		<SimpleData name="BadPoint">1</SimpleData>
+		<SimpleData name="Var_X">0</SimpleData>
+		<SimpleData name="Var_Y">0</SimpleData>
+		<SimpleData name="Cov_XY">0</SimpleData>
+		<SimpleData name="AngleDiff">0</SimpleData>
+		<SimpleData name="Date">2</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.634244840555375,-9.190508895242498</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#estimativas">
+		<SimpleData name="BadPoint">0</SimpleData>
+		<SimpleData name="Var_X">14110.4847236458</SimpleData>
+		<SimpleData name="Var_Y">6983.57181239625</SimpleData>
+		<SimpleData name="Cov_XY">-9502.94646809962</SimpleData>
+		<SimpleData name="AngleDiff">78.736287807637</SimpleData>
+		<SimpleData name="Date">11</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.641241784571527,-9.192928961565029</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#estimativas">
+		<SimpleData name="BadPoint">0</SimpleData>
+		<SimpleData name="Var_X">4.89524171992804</SimpleData>
+		<SimpleData name="Var_Y">1.12050823481438</SimpleData>
+		<SimpleData name="Cov_XY">2.20558893871242</SimpleData>
+		<SimpleData name="AngleDiff">0.59737569802624</SimpleData>
+		<SimpleData name="Date">12</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.639785335505543,-9.193650739852659</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#estimativas">
+		<SimpleData name="BadPoint">1</SimpleData>
+		<SimpleData name="Var_X">0</SimpleData>
+		<SimpleData name="Var_Y">0</SimpleData>
+		<SimpleData name="Cov_XY">0</SimpleData>
+		<SimpleData name="AngleDiff">0</SimpleData>
+		<SimpleData name="Date">12</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.629829101392538,-9.188224183673807</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#estimativas">
+		<SimpleData name="BadPoint">1</SimpleData>
+		<SimpleData name="Var_X">0</SimpleData>
+		<SimpleData name="Var_Y">0</SimpleData>
+		<SimpleData name="Cov_XY">0</SimpleData>
+		<SimpleData name="AngleDiff">0</SimpleData>
+		<SimpleData name="Date">13</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.638640906179866,-9.189037270886219</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#estimativas">
+		<SimpleData name="BadPoint">0</SimpleData>
+		<SimpleData name="Var_X">586.174239043607</SimpleData>
+		<SimpleData name="Var_Y">599.044493979578</SimpleData>
+		<SimpleData name="Cov_XY">451.175403086788</SimpleData>
+		<SimpleData name="AngleDiff">8.71362202144269</SimpleData>
+		<SimpleData name="Date">14</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63940203004794,-9.193657525411565</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#estimativas">
+		<SimpleData name="BadPoint">1</SimpleData>
+		<SimpleData name="Var_X">0</SimpleData>
+		<SimpleData name="Var_Y">0</SimpleData>
+		<SimpleData name="Cov_XY">0</SimpleData>
+		<SimpleData name="AngleDiff">0</SimpleData>
+		<SimpleData name="Date">14</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.641782193969334,-9.188413061444109</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#estimativas">
+		<SimpleData name="BadPoint">0</SimpleData>
+		<SimpleData name="Var_X">16683.8362865843</SimpleData>
+		<SimpleData name="Var_Y">17938.2389584275</SimpleData>
+		<SimpleData name="Cov_XY">-10292.9163918413</SimpleData>
+		<SimpleData name="AngleDiff">17.4204399012652</SimpleData>
+		<SimpleData name="Date">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.645421592952253,-9.193393620198254</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#estimativas">
+		<SimpleData name="BadPoint">1</SimpleData>
+		<SimpleData name="Var_X">0</SimpleData>
+		<SimpleData name="Var_Y">0</SimpleData>
+		<SimpleData name="Cov_XY">0</SimpleData>
+		<SimpleData name="AngleDiff">0</SimpleData>
+		<SimpleData name="Date">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.639607029911559,-9.193693563625031</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#estimativas">
+		<SimpleData name="BadPoint">1</SimpleData>
+		<SimpleData name="Var_X">0</SimpleData>
+		<SimpleData name="Var_Y">0</SimpleData>
+		<SimpleData name="Cov_XY">0</SimpleData>
+		<SimpleData name="AngleDiff">0</SimpleData>
+		<SimpleData name="Date">4</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.645455398255315,-9.193199984157456</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#estimativas">
+		<SimpleData name="BadPoint">1</SimpleData>
+		<SimpleData name="Var_X">0</SimpleData>
+		<SimpleData name="Var_Y">0</SimpleData>
+		<SimpleData name="Cov_XY">0</SimpleData>
+		<SimpleData name="AngleDiff">0</SimpleData>
+		<SimpleData name="Date">4</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.643628502633113,-9.190041665801903</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#estimativas">
+		<SimpleData name="BadPoint">1</SimpleData>
+		<SimpleData name="Var_X">0</SimpleData>
+		<SimpleData name="Var_Y">0</SimpleData>
+		<SimpleData name="Cov_XY">0</SimpleData>
+		<SimpleData name="AngleDiff">0</SimpleData>
+		<SimpleData name="Date">5</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.640183252885528,-9.193764924051916</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#estimativas">
+		<SimpleData name="BadPoint">0</SimpleData>
+		<SimpleData name="Var_X">720.04671519211</SimpleData>
+		<SimpleData name="Var_Y">866.36561423908</SimpleData>
+		<SimpleData name="Cov_XY">-277.905856162501</SimpleData>
+		<SimpleData name="AngleDiff">9.75652899028204</SimpleData>
+		<SimpleData name="Date">5</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.640004046136561,-9.192452829399199</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#estimativas">
+		<SimpleData name="BadPoint">1</SimpleData>
+		<SimpleData name="Var_X">0</SimpleData>
+		<SimpleData name="Var_Y">0</SimpleData>
+		<SimpleData name="Cov_XY">0</SimpleData>
+		<SimpleData name="AngleDiff">0</SimpleData>
+		<SimpleData name="Date">6</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.645525386738314,-9.195262561877183</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#estimativas">
+		<SimpleData name="BadPoint">1</SimpleData>
+		<SimpleData name="Var_X">0</SimpleData>
+		<SimpleData name="Var_Y">0</SimpleData>
+		<SimpleData name="Cov_XY">0</SimpleData>
+		<SimpleData name="AngleDiff">0</SimpleData>
+		<SimpleData name="Date">6</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.640434748706717,-9.193433144452483</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#estimativas">
+		<SimpleData name="BadPoint">1</SimpleData>
+		<SimpleData name="Var_X">0</SimpleData>
+		<SimpleData name="Var_Y">0</SimpleData>
+		<SimpleData name="Cov_XY">0</SimpleData>
+		<SimpleData name="AngleDiff">0</SimpleData>
+		<SimpleData name="Date">7</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.644758073304772,-9.194492613886096</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#estimativas">
+		<SimpleData name="BadPoint">1</SimpleData>
+		<SimpleData name="Var_X">0</SimpleData>
+		<SimpleData name="Var_Y">0</SimpleData>
+		<SimpleData name="Cov_XY">0</SimpleData>
+		<SimpleData name="AngleDiff">0</SimpleData>
+		<SimpleData name="Date">7</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.640073836728682,-9.193363357245067</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#estimativas">
+		<SimpleData name="BadPoint">0</SimpleData>
+		<SimpleData name="Var_X">8381.44839776178</SimpleData>
+		<SimpleData name="Var_Y">31079.8291520715</SimpleData>
+		<SimpleData name="Cov_XY">15946.6550278549</SimpleData>
+		<SimpleData name="AngleDiff">17.5841741640243</SimpleData>
+		<SimpleData name="Date">8</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.639668201274731,-9.19388048529982</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#estimativas">
+		<SimpleData name="BadPoint">0</SimpleData>
+		<SimpleData name="Var_X">1186.88326094421</SimpleData>
+		<SimpleData name="Var_Y">8330.72216204413</SimpleData>
+		<SimpleData name="Cov_XY">-712.654726788781</SimpleData>
+		<SimpleData name="AngleDiff">7.63639503705674</SimpleData>
+		<SimpleData name="Date">8</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.640316634164336,-9.193468822566187</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#estimativas">
+		<SimpleData name="BadPoint">1</SimpleData>
+		<SimpleData name="Var_X">0</SimpleData>
+		<SimpleData name="Var_Y">0</SimpleData>
+		<SimpleData name="Cov_XY">0</SimpleData>
+		<SimpleData name="AngleDiff">0</SimpleData>
+		<SimpleData name="Date">8</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.636770299126958,-9.190852481213403</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#estimativas">
+		<SimpleData name="BadPoint">1</SimpleData>
+		<SimpleData name="Var_X">0</SimpleData>
+		<SimpleData name="Var_Y">0</SimpleData>
+		<SimpleData name="Cov_XY">0</SimpleData>
+		<SimpleData name="AngleDiff">0</SimpleData>
+		<SimpleData name="Date">9</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.644236383411787,-9.193992353658343</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#estimativas">
+		<SimpleData name="BadPoint">1</SimpleData>
+		<SimpleData name="Var_X">0</SimpleData>
+		<SimpleData name="Var_Y">0</SimpleData>
+		<SimpleData name="Cov_XY">0</SimpleData>
+		<SimpleData name="AngleDiff">0</SimpleData>
+		<SimpleData name="Date">9</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.639577784703931,-9.193601742241469</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#estimativas">
+		<SimpleData name="BadPoint">1</SimpleData>
+		<SimpleData name="Var_X">0</SimpleData>
+		<SimpleData name="Var_Y">0</SimpleData>
+		<SimpleData name="Cov_XY">0</SimpleData>
+		<SimpleData name="AngleDiff">0</SimpleData>
+		<SimpleData name="Date">9</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.637131357163831,-9.190052706624753</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#estimativas">
+		<SimpleData name="BadPoint">1</SimpleData>
+		<SimpleData name="Var_X">0</SimpleData>
+		<SimpleData name="Var_Y">0</SimpleData>
+		<SimpleData name="Cov_XY">0</SimpleData>
+		<SimpleData name="AngleDiff">0</SimpleData>
+		<SimpleData name="Date">10</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.756070170166396,-8.476005706779096</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#estimativas">
+		<SimpleData name="BadPoint">0</SimpleData>
+		<SimpleData name="Var_X">1735.59207243852</SimpleData>
+		<SimpleData name="Var_Y">2867.68031883963</SimpleData>
+		<SimpleData name="Cov_XY">296.903771789932</SimpleData>
+		<SimpleData name="AngleDiff">11.2109091151221</SimpleData>
+		<SimpleData name="Date">10</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63681199953642,-9.191770598099341</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#estimativas">
+		<SimpleData name="BadPoint">1</SimpleData>
+		<SimpleData name="Var_X">0</SimpleData>
+		<SimpleData name="Var_Y">0</SimpleData>
+		<SimpleData name="Cov_XY">0</SimpleData>
+		<SimpleData name="AngleDiff">0</SimpleData>
+		<SimpleData name="Date">15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.640435739118544,-9.194093838283894</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#estimativas">
+		<SimpleData name="BadPoint">0</SimpleData>
+		<SimpleData name="Var_X">891105.509504119</SimpleData>
+		<SimpleData name="Var_Y">-222757.493101364</SimpleData>
+		<SimpleData name="Cov_XY">423870.193618114</SimpleData>
+		<SimpleData name="AngleDiff">78.0152683709938</SimpleData>
+		<SimpleData name="Date">15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.635352929014473,-9.198228115280394</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#estimativas">
+		<SimpleData name="BadPoint">1</SimpleData>
+		<SimpleData name="Var_X">0</SimpleData>
+		<SimpleData name="Var_Y">0</SimpleData>
+		<SimpleData name="Cov_XY">0</SimpleData>
+		<SimpleData name="AngleDiff">0</SimpleData>
+		<SimpleData name="Date">18</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.642205948400125,-9.19637100375091</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#estimativas">
+		<SimpleData name="BadPoint">1</SimpleData>
+		<SimpleData name="Var_X">0</SimpleData>
+		<SimpleData name="Var_Y">0</SimpleData>
+		<SimpleData name="Cov_XY">0</SimpleData>
+		<SimpleData name="AngleDiff">0</SimpleData>
+		<SimpleData name="Date">18</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.683622962225762,-9.267612915311958</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#estimativas">
+		<SimpleData name="BadPoint">1</SimpleData>
+		<SimpleData name="Var_X">0</SimpleData>
+		<SimpleData name="Var_Y">0</SimpleData>
+		<SimpleData name="Cov_XY">0</SimpleData>
+		<SimpleData name="AngleDiff">0</SimpleData>
+		<SimpleData name="Date">18</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.629486281328099,-9.194566013356935</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#estimativas">
+		<SimpleData name="BadPoint">1</SimpleData>
+		<SimpleData name="Var_X">0</SimpleData>
+		<SimpleData name="Var_Y">0</SimpleData>
+		<SimpleData name="Cov_XY">0</SimpleData>
+		<SimpleData name="AngleDiff">0</SimpleData>
+		<SimpleData name="Date">16</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.630439953115733,-9.187196325520839</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#estimativas">
+		<SimpleData name="BadPoint">0</SimpleData>
+		<SimpleData name="Var_X">52.2259153333833</SimpleData>
+		<SimpleData name="Var_Y">13.9834384747922</SimpleData>
+		<SimpleData name="Cov_XY">-10.7884257586043</SimpleData>
+		<SimpleData name="AngleDiff">120.697157312092</SimpleData>
+		<SimpleData name="Date">17</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.635099539574405,-9.200496432979904</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

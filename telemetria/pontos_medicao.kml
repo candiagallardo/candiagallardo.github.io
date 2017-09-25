@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="pontos" id="pontos">
+	<SimpleField name="GID" type="int"></SimpleField>
+</Schema>
+<Folder><name>pontos</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63504,-9.19352</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.6347,-9.19171</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63354,-9.19033</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63342,-9.18853</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63295,-9.18678</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">2</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63673,-9.19372</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">2</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63629,-9.192</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">2</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.6357,-9.19025</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">2</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63524,-9.18849</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.62812,-9.18657</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.628865,-9.18829</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.6288,-9.19009</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.6292,-9.19186</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.62916,-9.19369</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">4</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.62916,-9.1943</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">4</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63614,-9.19253</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">4</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63638,-9.19074</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">4</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.637,-9.18802</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">5</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64004,-9.19372</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">5</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64159,-9.1928</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">5</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64141,-9.1928</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">6</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64,-9.19375</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">6</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64136,-9.19252</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">6</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64057,-9.19091</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">7</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63107,-9.18683</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">7</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.62922,-9.18686</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">7</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.62936,-9.18872</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">8</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63851,-9.18999</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">8</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63832,-9.18816</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">8</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63971,-9.18728</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">9</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63982,-9.1941</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">9</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64089,-9.19267</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">9</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64042,-9.19095</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">10</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63916,-9.1923</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">10</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63741,-9.19184</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">10</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63625,-9.19321</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">11</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64008,-9.19357</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">11</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64105,-9.19465</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">11</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.644231,-9.19628</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">11</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64301,-9.19795</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">12</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63968,-9.19416</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">12</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64096,-9.19287</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">12</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64037,-9.19116</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">12</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64409,-9.19696</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">13</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64474,-9.19366</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">13</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64658,-9.19368</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">13</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64843,-9.19385</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">14</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64091,-9.19273</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">14</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64069,-9.19095</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">14</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64905,-9.19014</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63973,-9.19399</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64112,-9.19284</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64093,-9.19105</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">16</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64075,-9.19167</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">16</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63898,-9.19118</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">16</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63718,-9.19159</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">17</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64594,-9.1952</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">17</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.6441,-9.19543</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">17</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64341,-9.19714</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">18</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.6399,-9.19389</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">18</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64111,-9.19254</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">18</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64177,-9.19085</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">19</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.6453,-9.19458</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">19</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64348,-9.19478</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">19</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64251,-9.19631</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">20</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63986,-9.19399</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">20</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.6411,-9.19263</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">20</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64159,-9.19089</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">21</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63976,-9.19422</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">21</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64108,-9.19298</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">21</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64126,-9.19114</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">22</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64154,-9.19114</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">22</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63974,-9.19047</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">22</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63886,-9.18887</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">22</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63751,-9.18764</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">23</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63733,-9.19087</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">23</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63692,-9.19267</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">23</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63878,-9.19288</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">24</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64477,-9.19368</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">24</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64296,-9.19343</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">24</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64125,-9.1941</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">25</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63966,-9.19419</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">25</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64085,-9.19283</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">25</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64049,-9.19109</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">25</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64025,-9.19094</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">25</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64056,-9.18914</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">25</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64054,-9.1873</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">26</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63675,-9.1891</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">26</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63638,-9.19087</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">26</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63612,-9.19267</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">26</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63654,-9.19443</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">27</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63916,-9.19098</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">27</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63733,-9.19114</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">27</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.19289,-9.19289</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">28</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63634,-9.19363</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">28</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63876,-9.19303</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">28</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64036,-9.19223</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63984,-9.19409</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64113,-9.19281</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64037,-9.19116</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">30</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64055,-9.192111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">30</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63912,-9.19099</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">30</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63912,-9.199008</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63981,-9.19358</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64135,-9.19268</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64092,-9.1909</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">32</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.664092,-9.1919115</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">32</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63987,-9.19115</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">32</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63825,-9.19031</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">33</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63638,-9.19028</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">33</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63702,-9.19924</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">33</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.6369,-9.20107</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">34</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63862,-9.2018</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">34</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63978,-9.19409</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">34</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.64101,-9.19272</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">36</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63438,-9.20068</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">36</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63517,-9.20232</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#pontos">
+		<SimpleData name="GID">36</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-39.63702,-9.2023</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
