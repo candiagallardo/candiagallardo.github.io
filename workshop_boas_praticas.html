@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+<meta name="author" content="Carlos Candia-Gallardo" />
+
+
+<title>Workshop Boas práticas em coleta, organização e gerenciamento de dados</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/united.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106496449-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', 'UA-106496449-1');
+</script>
+
+<link rel='shortcut icon' type='image/x-icon' href='http://candiagallardo.github.io/favicon.ico' />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs && document.readyState && document.readyState === "complete") {
+   window.setTimeout(function() {
+      hljs.initHighlighting();
+   }, 0);
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Candia-Gallardo</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="about.html">About</a>
+</li>
+<li>
+  <a href="publications.html">Publications</a>
+</li>
+<li>
+  <a href="posts.html">Posts</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://www.instagram.com/carloscandiagallardo/">
+    <span class="fa fa-instagram fa-2x"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://github.com/candiagallardo">
+    <span class="fa fa-github fa-2x"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="Port/index.html">
+    <span class="fa fa-flag-o fa-2x"></span>
+     
+    Português
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Workshop Boas práticas em coleta, organização e gerenciamento de dados</h1>
+<h4 class="author"><em>Carlos Candia-Gallardo</em></h4>
+
+</div>
+
+
+<table style = "width:75%">
+<p>
+<p>A prática da pesquisa científica se baseia na obtenção e análise de dados, sejam eles obtidos de fontes pré-existentes, coletados pelo próprio pesquisador ou por colaboradores. A qualidade das análises e conclusões de uma pesquisa é diretamente dependente da qualidade dos dados utilizados. Um dos fatores que determinam essa qualidade é, além do zelo e cuidado nas fases de planejamento e coleta, a organização e o gerenciamento dos dados. Dados mal organizados e gerenciados podem aumentar consideravelmente o tempo necessário para sua manipulação, podem ocasionar erros nas análises e conclusões, além de dificultar ou até mesmo impedir a reproducibilidade da pesquisa, isto é, que outras pessoas ou o próprio pesquisador consigam repetir passo-a-passo as análises e checar os resultados obtidos. Mais do que um preciosismo, a adoção de boas práticas de coleta, organização e gerenciamento de dados é um pré-requisito para a realização de pesquisas confiáveis e de qualidade. É também um procedimento indispensável para a profissionalização da atividade de pesquisa.</p>
+<p>Neste curso abordaremos e discutiremos boas práticas em organização e gerenciamento de dados, a fim de garantir a reproducibilidade das análises e conclusões, diminuindo o tempo necessário e as chances de erro ao longo do processo. Assim o pesquisador pode otimizar o uso do tempo para contemplar outras atividades importantes na pesquisa - tal como a leitura, reflexão, discussão e escrita – e também na sua vida pessoal, tal como o convívio com família e amigos. O workshop terá duração aproximada de seis horas, nas quais serão discutidos princípios que norteiam boas práticas e sua implantação usando ferramentas do programa Excel. É desejável que os participantes levem notebook e, se tiverem, dados de suas pesquisas para que discutamos e trabalhemos exemplos aplicados aos seus próprios trabalhos.</p>
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<img src="pics/posts/logo_OAIBu.jpeg" alt="Logo Observatório" style="float:left;width:130px;border:10;"> <img src="pics/posts/USP_logo.jpeg" alt="Logo USP" style="float:right;width:130px;border:10;">
+</tr>
+</td>
+<tr>
+<td>
+</table>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
