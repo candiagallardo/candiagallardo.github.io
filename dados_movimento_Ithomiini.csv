@@ -1,0 +1,104 @@
+"Projeto","Data","Hora","Espécie","Amostra","Dist_toler","Dist_perco","Tempo","Alt_ini","Alt_final","Alt_max","Temperatura","Umidade","Obs","Coletor","Local","sex","lon","lat","velocidade"
+"Desempenho locomotor de Ithomiini",2018-03-23,"10:43:00","Hypoleria lavinia",1,NA,1.39,3.58,0.57,NA,1.43,28.4,66,NA,"Karine e Kiwi","matinha",NA,NA,NA,0.39
+"Desempenho locomotor de Ithomiini",2018-03-23,"10:50:00","Ithomia agnosia",2,NA,3.67,6.34,0.97,NA,1.24,29.7,70,NA,"Karine e Kiwi","matinha",NA,NA,NA,0.58
+"Desempenho locomotor de Ithomiini",2018-03-23,"10:58:00","Hypoleria lavinia",3,NA,2.69,8.81,0.68,NA,1.1,29.9,61,"Macho","Karine e Kiwi","matinha",NA,NA,NA,0.31
+"Desempenho locomotor de Ithomiini",2018-03-23,"11:00:00","Hypothyris ninonia",4,NA,4.2,9.26,1.56,0.53,1.56,30.1,72,NA,"Karine e Kiwi","matinha",NA,NA,NA,0.45
+"Desempenho locomotor de Ithomiini",2018-03-23,"11:07:00","Hypoleria lavinia",5,NA,0.41,1.89,0.71,0.65,0.65,29.8,62,"Fêmea","Karine e Kiwi","matinha",NA,NA,NA,0.22
+"Desempenho locomotor de Ithomiini",2018-03-23,"11:12:00","Mechanitis polymnia",6,NA,8.6,34.35,1.52,1.88,3.95,29.7,63,NA,"Karine e Kiwi","matinha",NA,NA,NA,0.25
+"Desempenho locomotor de Ithomiini",2018-03-23,"11:16:00","Hypothyris euclea",7,NA,5.12,8.16,1.7,1.25,1.93,29.1,67,"Amarela","Karine e Kiwi","matinha",NA,NA,NA,0.63
+"Desempenho locomotor de Ithomiini",2018-03-23,"11:28:00","Mcclungia cymo",8,NA,8.1,26.61,1.24,1.19,1.77,29.1,62,"Perdida, medidas máximas/ Asa 3","Karine e Kiwi","matinha",NA,NA,NA,0.3
+"Desempenho locomotor de Ithomiini",2018-03-23,"11:46:00","Hypothyris euclea",9,NA,1.87,16.37,1.1,0.31,1.1,28.9,NA,"Marcada/ Vôo lento","Karine e Kiwi","matinha",NA,NA,NA,0.11
+"Desempenho locomotor de Ithomiini",2018-03-23,"11:53:00","Mechanitis polymnia",10,NA,14.05,42.85,1.01,0.97,2.29,29.9,61,NA,"Karine e Kiwi","matinha",NA,NA,NA,0.33
+"Desempenho locomotor de Ithomiini",2018-04-04,"13:58:00","Hypothyris ninonia",11,NA,3.55,5.38,3.62,4.32,4.62,28.3,68,NA,"Karine e Kiwi","matinha",NA,NA,NA,0.66
+"Desempenho locomotor de Ithomiini",2018-04-04,"14:06:00","Ithomia agnosia",12,NA,2.6,4.81,1.01,0.92,1.49,27.9,64,NA,"Karine e Kiwi","matinha",NA,NA,NA,0.54
+"Desempenho locomotor de Ithomiini",2018-04-04,"14:11:00","Mechanitis polymnia",13,NA,3.71,11.52,1.76,2.93,3.13,27,65,NA,"Karine e Kiwi","matinha",NA,NA,NA,0.32
+"Desempenho locomotor de Ithomiini",2018-04-04,"14:16:00","Hypothyris ninonia",14,NA,1.34,2.65,1.96,2.6,2.6,27.6,64,"Macho fazendo display","Karine e Kiwi","matinha",NA,NA,NA,0.51
+"Desempenho locomotor de Ithomiini",2018-04-04,"14:25:00","Hypoleria lavinia",15,NA,0.14,1,1.13,1.17,1.17,26.7,67,NA,"Karine e Kiwi","matinha",NA,NA,NA,0.14
+"Desempenho locomotor de Ithomiini",2018-04-04,"14:30:00","Hypoleria lavinia",16,NA,0.82,7.88,0.99,1.4,1.74,26.5,66,NA,"Karine e Kiwi","matinha",NA,NA,NA,0.1
+"Desempenho locomotor de Ithomiini",2018-04-04,"14:35:00","Hypoleria lavinia",17,NA,3.67,8.32,1.14,1.18,1.74,26.1,67,NA,"Karine e Kiwi","matinha",NA,NA,NA,0.44
+"Desempenho locomotor de Ithomiini",2018-04-04,"14:41:00","Hypoleria lavinia",18,NA,1.36,7.96,0.73,1.3,1.3,26,63,NA,"Karine e Kiwi","matinha",NA,NA,NA,0.17
+"Desempenho locomotor de Ithomiini",2018-04-04,"14:48:00","Hypoleria lavinia",19,NA,2.95,13.75,1.64,2.48,3.15,25.8,70,NA,"Karine e Kiwi","matinha",NA,NA,NA,0.21
+"Desempenho locomotor de Ithomiini",2018-04-04,"14:52:00","Hypothyris ninonia",20,NA,7.35,21.41,1.61,2.97,2.86,25.9,66,NA,"Karine e Kiwi","matinha",NA,NA,NA,0.34
+"Desempenho locomotor de Ithomiini",2018-04-04,"14:55:00","Mechanitis polymnia",21,NA,1.22,6.92,1.57,2.49,2.49,26,64,NA,"Karine e Kiwi","matinha",NA,NA,NA,0.18
+"Desempenho locomotor de Ithomiini",2018-04-04,"15:07:00","Hypothyris euclea",22,NA,1.95,3.91,1.36,2.12,2.12,25.1,65,NA,"Karine e Kiwi","matinha",NA,NA,NA,0.5
+"Desempenho locomotor de Ithomiini",2018-04-04,"15:11:00","Hypoleria lavinia",23,NA,2.01,5.57,0.62,0.92,1.12,25.3,66,NA,"Karine e Kiwi","matinha",NA,NA,NA,0.36
+"Desempenho locomotor de Ithomiini",2018-04-04,"15:23:00","Hypoleria lavinia",24,NA,0.28,1.64,1.14,1.48,1.48,26.3,66,"Macho","Karine e Kiwi","matinha",NA,NA,NA,0.17
+"Desempenho locomotor de Ithomiini",2018-04-04,"15:25:00","Mechanitis lysimnia",25,NA,2.36,7.54,1.5,3,3,26.5,66,NA,"Karine e Kiwi","matinha",NA,NA,NA,0.31
+"Desempenho locomotor de Ithomiini",2018-04-06,"13:55:00","Hypothyris ninonia",26,1.36,1.57,7.52,0.44,0.71,1.3,27.5,62,NA,"Karine e Kiwi","PEPT",NA,NA,NA,0.21
+"Desempenho locomotor de Ithomiini",2018-04-06,"14:00:00","Hypoleria lavinia",27,1.04,3.17,8.25,0.58,0.53,1.28,27.5,62,NA,"Karine e Kiwi","PEPT",NA,NA,NA,0.38
+"Desempenho locomotor de Ithomiini",2018-04-06,"14:04:00","Hypothyris ninonia",28,3.17,1.76,5.54,0.85,0.82,0.84,27.5,62,NA,"Karine e Kiwi","PEPT",NA,NA,NA,0.32
+"Desempenho locomotor de Ithomiini",2018-04-06,"14:10:00","Mechanitis polymnia",29,0,11.25,47.95,2.5,1.71,3.47,27.6,60,"Interação c/ outra M. poly, medidas máximas","Karine e Kiwi","PEPT",NA,NA,NA,0.23
+"Desempenho locomotor de Ithomiini",2018-04-06,"14:17:00","Mechanitis polymnia",30,1.9,5.2,44.8,1.21,1.03,2.93,29.1,68,NA,"Karine e Kiwi","PEPT",NA,NA,NA,0.12
+"Desempenho locomotor de Ithomiini",2018-04-06,"14:20:00","Ithomia agnosia",31,0,1.47,7,0.4,0.62,0.77,29.1,60,NA,"Karine e Kiwi","PEPT",NA,NA,NA,0.21
+"Desempenho locomotor de Ithomiini",2018-04-06,"14:26:00","Mechanitis polymnia",32,1.6,0.86,3,0.65,1.13,1.39,28.1,57,"Pousou por causa de uma teia de aranha","Karine e Kiwi","PEPT",NA,NA,NA,0.29
+"Desempenho locomotor de Ithomiini",2018-04-06,"14:30:00","Hypoleria lavinia",33,0,2.03,4.18,2.01,1.1,2.91,27.8,61,"Fêmea","Karine e Kiwi","PEPT",NA,NA,NA,0.49
+"Desempenho locomotor de Ithomiini",2018-04-06,"14:33:00","Epityches eupompe",34,0,0.73,12.09,1.04,1.04,1.04,28.3,66,"Macho/ display com androconios proeminentes","Karine e Kiwi","PEPT",NA,NA,NA,0.06
+"Desempenho locomotor de Ithomiini",2018-04-06,"14:42:00","Hypothyris euclea",35,0.79,8.76,116.42,0.37,0.9,3.76,28.1,65,NA,"Karine e Kiwi","PEPT",NA,NA,NA,0.08
+"Desempenho locomotor de Ithomiini",2018-04-06,"14:45:00","Mechanitis polymnia",36,1.26,1.75,7.81,0.43,0.36,0.43,27.8,63,NA,"Karine e Kiwi","PEPT",NA,NA,NA,0.22
+"Desempenho locomotor de Ithomiini",2018-04-06,"14:50:00","Hypothyris ninonia",37,0.67,6.37,19.61,0.56,2.08,2.08,27.8,66,NA,"Karine e Kiwi","PEPT",NA,NA,NA,0.32
+"Desempenho locomotor de Ithomiini",2018-04-06,"14:53:00","Mechanitis polymnia",38,1.69,1.23,3.13,0.39,0.72,0.92,27.5,69,NA,"Karine e Kiwi","PEPT",NA,NA,NA,0.39
+"Desempenho locomotor de Ithomiini",2018-04-06,"14:57:00","Hypothyris ninonia",39,1.29,1.41,6.51,0.34,0.12,0.51,27.3,67,NA,"Karine e Kiwi","PEPT",NA,NA,NA,0.22
+"Desempenho locomotor de Ithomiini",2018-04-06,"15:00:00","Hypoleria lavinia",40,0.7,2.64,9.08,0.49,0.58,1.5,27.5,62,NA,"Karine e Kiwi","PEPT",NA,NA,NA,0.29
+"Desempenho locomotor de Ithomiini",2018-04-06,"15:06:00","Mechanitis lysimnia",41,1.66,12.11,90,1.95,1.52,3.21,27.4,61,NA,"Karine e Kiwi","PEPT",NA,NA,NA,0.13
+"Desempenho locomotor de Ithomiini",2018-04-06,"15:14:00","Hypothyris ninonia",42,2.56,6.53,13.32,0.7,0.54,1.26,27.4,63,NA,"Karine e Kiwi","PEPT",NA,NA,NA,0.49
+"Desempenho locomotor de Ithomiini",2018-04-06,"15:18:00","Hypoleria lavinia",43,0.86,0.41,3.73,0.44,0.57,0.98,27.5,62,NA,"Karine e Kiwi","PEPT",NA,NA,NA,0.11
+"Desempenho locomotor de Ithomiini",2018-04-06,"15:22:00","Mechanitis polymnia",44,1.08,3.85,22.27,0.25,0.82,2.42,27.5,58,NA,"Karine e Kiwi","PEPT",NA,NA,NA,0.17
+"Desempenho locomotor de Ithomiini",2018-04-06,"15:27:00","Epityches eupompe",45,2.85,1.06,33.32,0.72,0.98,1.76,27.2,57,"Foi longe e voltou próximo ao ponto inicial/ macho/ display","Karine e Kiwi","PEPT",NA,NA,NA,0.03
+"Desempenho locomotor de Ithomiini",2018-04-06,"15:32:00","Epityches eupompe",46,1.7,1.21,7.34,0.85,1.19,1.19,27,57,"Macho/ display (foto)","Karine e Kiwi","PEPT",NA,NA,NA,0.16
+"Desempenho locomotor de Ithomiini",2018-04-12,"09:53:00","Hypothyris ninonia",47,1.67,0.8,5.24,0.56,0.55,1.14,25.2,62,NA,"Karine e Kiwi","matinha",NA,NA,NA,0.15
+"Desempenho locomotor de Ithomiini",2018-04-12,"10:00:00","Hypoleria lavinia",48,0,1.16,5.09,0.81,1.02,1.4,25.5,62,NA,"Karine e Kiwi","matinha",NA,NA,NA,0.23
+"Desempenho locomotor de Ithomiini",2018-04-12,"10:05:00","Hypothyris ninonia",49,0.66,2.17,8.46,0.98,0.66,1.57,25.6,59,NA,"Karine e Kiwi","matinha",NA,NA,NA,0.26
+"Desempenho locomotor de Ithomiini",2018-04-12,"10:10:00","Hypothyris euclea",50,0.9,3.41,6.57,1.67,1.74,1.74,26.1,60,NA,"Karine e Kiwi","matinha",NA,NA,NA,0.52
+"Desempenho locomotor de Ithomiini",2018-04-12,"10:13:00","Hypoleria lavinia",51,0.53,1.96,4.52,0.67,0.85,0.83,26.5,60,NA,"Karine e Kiwi","matinha",NA,NA,NA,0.43
+"Desempenho locomotor de Ithomiini",2018-04-12,"10:18:00","Hypothyris euclea",52,0.77,5.54,15.02,0.7,1.94,2.14,26.9,74,NA,"Karine e Kiwi","matinha",NA,NA,NA,0.37
+"Desempenho locomotor de Ithomiini",2018-04-12,"10:21:00","Hypoleria lavinia",53,0.54,8.13,20.38,0.94,1.35,1.67,27.3,66,NA,"Karine e Kiwi","matinha",NA,NA,NA,0.4
+"Desempenho locomotor de Ithomiini",2018-04-12,"10:26:00","Ithomia agnosia",54,1.47,5.05,11.66,0.59,0.42,1.48,27.5,75,"Macho","Karine e Kiwi","matinha",NA,NA,NA,0.43
+"Desempenho locomotor de Ithomiini",2018-04-12,"10:29:00","Mcclungia cymo",55,0.67,6.47,11.55,0.63,1.72,1.83,28.2,69,"Perdida, medidas máximas","Karine e Kiwi","matinha",NA,NA,NA,0.56
+"Desempenho locomotor de Ithomiini",2018-04-12,"10:31:00","Mcclungia cymo",56,0,0.53,1.78,0.54,0.73,0.73,28.5,62,NA,"Karine e Kiwi","matinha",NA,NA,NA,0.3
+"Desempenho locomotor de Ithomiini",2018-04-12,"10:33:00","Ithomia agnosia",57,0,3.71,5.8,0.87,0.5,1.44,28.8,65,"Macho","Karine e Kiwi","matinha",NA,NA,NA,0.64
+"Desempenho locomotor de Ithomiini",2018-04-12,"10:35:00","Hypoleria lavinia",58,0.58,0.67,4.82,0.67,0.68,0.68,29.5,75,"Fêmea","Karine e Kiwi","matinha",NA,NA,NA,0.14
+"Desempenho locomotor de Ithomiini",2018-04-12,"10:41:00","Mcclungia cymo",59,0,2.46,10.15,1.34,0.84,1.51,29.1,70,"Macho/ display","Karine e Kiwi","matinha",NA,NA,NA,0.24
+"Desempenho locomotor de Ithomiini",2018-04-12,"10:44:00","Mcclungia cymo",60,0.77,0.82,2.68,1.21,1.37,1.37,29,64,NA,"Karine e Kiwi","matinha",NA,NA,NA,0.31
+"Desempenho locomotor de Ithomiini",2018-04-12,"10:47:00","Hypothyris euclea",61,0,1.26,9.9,0.83,0.74,1.16,28.5,61,NA,"Karine e Kiwi","matinha",NA,NA,NA,0.13
+"Desempenho locomotor de Ithomiini",2018-04-12,"10:50:00","Mcclungia cymo",62,0.63,1,5.26,1.04,1.16,1.25,28.2,62,"Macho/ display","Karine e Kiwi","matinha",NA,NA,NA,0.19
+"Desempenho locomotor de Ithomiini",2018-04-12,"10:57:00","Hypothyris euclea",63,1.08,1.42,5.3,0.97,0.59,1.52,28.1,57,NA,"Karine e Kiwi","matinha",NA,NA,NA,0.27
+"Desempenho locomotor de Ithomiini",2018-04-12,"11:01:00","Hypoleria lavinia",64,0,0.55,2.3,0.56,0.89,0.99,27.9,66,NA,"Karine e Kiwi","matinha",NA,NA,NA,0.24
+"Desempenho locomotor de Ithomiini",2018-04-12,"11:04:00","Mcclungia cymo",65,0,1.64,3.34,0.94,1.1,1.6,28.2,69,NA,"Karine e Kiwi","matinha",NA,NA,NA,0.49
+"Desempenho locomotor de Ithomiini",2018-04-12,"11:07:00","Hypothyris euclea",66,0,1.11,4.65,0.7,0.69,0.99,28.2,59,NA,"Karine e Kiwi","matinha",NA,NA,NA,0.24
+"Desempenho locomotor de Ithomiini",2018-04-12,"11:10:00","Hypothyris euclea",67,0.44,0.97,6,0.91,0.83,1.42,27.9,60,NA,"Karine e Kiwi","matinha",NA,NA,NA,0.16
+"Desempenho locomotor de Ithomiini",2018-04-12,"11:12:00","Ithomia agnosia",68,0.59,1.13,4.97,0.6,0.44,0.78,27.9,60,"Fêmea/ foto!","Karine e Kiwi","matinha",NA,NA,NA,0.23
+"Desempenho locomotor de Ithomiini",2018-04-12,"11:17:00","Hypoleria lavinia",69,0,3.55,4.84,1.17,0.5,1.17,27.8,57,"Fêmea","Karine e Kiwi","matinha",NA,NA,NA,0.73
+"Desempenho locomotor de Ithomiini",2018-04-12,"11:27:00","Ithomia agnosia",70,0.26,2,4.36,0.51,0.9,1.71,27.9,55,"Macho","Karine e Kiwi","matinha",NA,NA,NA,0.46
+"Desempenho locomotor de Ithomiini",2018-04-12,"11:32:00","Hypothyris ninonia",71,0,0.27,2.23,0.89,1.16,1.16,28.4,52,NA,"Karine e Kiwi","matinha",NA,NA,NA,0.12
+"Desempenho locomotor de Ithomiini",2018-04-18,"NA:NA:NANA","Ithomia agnosia",NA,0,1.16,3.6,0.6,0.81,0.94,24.3,57,NA,"Kiwi","But_horto","macho",-23.5674366666667,-46.717435,0.32
+"Desempenho locomotor de Ithomiini",2018-04-18,"NA:NA:NANA","Ithomia agnosia",NA,0.2,2.64,4,0.48,1.1,1.24,25.8,56,NA,"Kiwi","But_horto","desconhecido",-23.5672983333333,-46.71718,0.66
+"Desempenho locomotor de Ithomiini",2018-04-18,"NA:NA:NANA","Hypothyris euclea",NA,0.15,5.08,22,2.04,1.67,3.54,27.2,57,NA,"Kiwi","But_horto","desconhecido",-23.5672966666667,-46.7172733333333,0.23
+"Desempenho locomotor de Ithomiini",2018-04-18,"NA:NA:NANA","Hypothyris euclea",NA,0,17.05,38.56,0.9,1.22,1.49,27.2,51,NA,"Kiwi, Outro","But_horto","desconhecido",-23.5673016666667,-46.7169716666667,0.44
+"Desempenho locomotor de Ithomiini",2018-04-18,"NA:NA:NANA","Mechanitis polymnia",NA,3.26,2.04,5.36,0.3,0.54,0.9,26.3,53,NA,"Kiwi","But_horto","desconhecido",-23.5672933333333,-46.7168883333333,0.38
+"Desempenho locomotor de Ithomiini",2018-04-18,"NA:NA:NANA","Hypothyris ninonia",NA,NA,2.55,16.28,0.64,0.2,1.13,26.1,59,NA,"Kiwi","But_horto","desconhecido",-23.5669966666667,-46.7168266666667,0.16
+"Desempenho locomotor de Ithomiini",2018-04-18,"NA:NA:NANA","Hypoleria lavinia",NA,0,4.73,8.65,1.41,1.38,1.7,26.2,59,NA,"Kiwi","But_horto","femea",-23.5671066666667,-46.71702,0.55
+"Desempenho locomotor de Ithomiini",2018-04-18,"NA:NA:NANA","Mechanitis polymnia",NA,2.67,8.34,23,0.21,0.3,1.37,25.5,56,NA,"Kiwi","But_horto","desconhecido",-23.5668066666667,-46.716995,0.36
+"Desempenho locomotor de Ithomiini",2018-04-18,"NA:NA:NANA","Mechanitis polymnia",NA,2.67,8.34,23,0.21,0.3,1.37,25.5,56,NA,"Kiwi","But_horto","desconhecido",-23.5668066666667,-46.716995,0.36
+"Desempenho locomotor de Ithomiini",2018-04-18,"NA:NA:NANA","Hypothyris ninonia",NA,0,0.72,2.17,0.35,0.55,0.55,25.5,56,NA,"Kiwi","But_horto","desconhecido",-23.5664183333333,-46.7173916666667,0.33
+"Desempenho locomotor de Ithomiini",2018-04-18,"NA:NA:NANA","Hypothyris ninonia",NA,0.35,0.9,4.7,0.46,0.31,0.46,25.8,54,NA,"Kiwi","But_horto","desconhecido",-23.5662016666667,-46.7173533333333,0.19
+"Desempenho locomotor de Ithomiini",2018-04-18,"NA:NA:NANA","Hypoleria lavinia",NA,0.05,0.56,2.56,0.69,1.31,1.31,25.8,59,NA,"Kiwi","But_horto","femea",-23.5663133333333,-46.7173466666667,0.22
+"Desempenho locomotor de Ithomiini",2018-04-18,"NA:NA:NANA","Hypothyris euclea",NA,0.1,0.55,2,2.6,2.02,2.02,25.9,57,NA,"Kiwi","But_horto","desconhecido",-23.5661516666667,-46.7173,0.28
+"Desempenho locomotor de Ithomiini",2018-04-18,"NA:NA:NANA","Mechanitis polymnia",NA,0.61,3.92,11.46,1.72,1.19,0.28,26.1,52,NA,"Kiwi","But_horto","desconhecido",-23.5661733333333,-46.71722,0.34
+"Desempenho locomotor de Ithomiini",2018-04-18,"NA:NA:NANA","Mcclungia cymo",NA,1.07,2.02,2.5,0.09,0.2,0.59,25.9,52,NA,"Kiwi","But_horto","desconhecido",-23.5663816666667,-46.7174966666667,0.81
+"Desempenho locomotor de Ithomiini",2018-04-20,"NA:NA:NANA","Mechanitis polymnia",NA,0.15,1.51,1.78,0.4,0.76,0.76,29.4,43,NA,"Karine, Kiwi","PEPT","desconhecido",-23.560145,-46.737175,0.85
+"Desempenho locomotor de Ithomiini",2018-04-20,"NA:NA:NANA","Mechanitis polymnia",NA,1.7,1.11,4.72,0.34,0.53,0.88,29,46,NA,"Karine, Kiwi","PEPT","desconhecido",-23.560195,-46.7372533333333,0.24
+"Desempenho locomotor de Ithomiini",2018-04-20,"NA:NA:NANA","Mechanitis polymnia",NA,2,2.61,7.28,0.48,0.24,1.39,27.8,44,NA,"Karine, Kiwi","PEPT","desconhecido",-23.5603366666667,-46.7370966666667,0.36
+"Desempenho locomotor de Ithomiini",2018-04-20,"NA:NA:NANA","Mcclungia cymo",NA,0.86,0.74,1.38,0.93,0.98,1.3,27.1,50,NA,"Karine, Kiwi","PEPT","desconhecido",-23.56033,-46.7371166666667,0.54
+"Desempenho locomotor de Ithomiini",2018-04-20,"NA:NA:NANA","Ithomia agnosia",NA,1.5,0.94,1.85,0.5,0.31,0.76,27.2,56,NA,"Karine, Kiwi","PEPT","desconhecido",-23.5603566666667,-46.7373316666667,0.51
+"Desempenho locomotor de Ithomiini",2018-04-20,"NA:NA:NANA","Mcclungia cymo",NA,0,1.4,5.34,0.84,0.94,0.94,27.4,57,"Display","Karine, Kiwi","PEPT","macho",-23.560445,-46.73732,0.26
+"Desempenho locomotor de Ithomiini",2018-04-20,"NA:NA:NANA","Ithomia agnosia",NA,1.36,16.32,22.93,0.29,2.21,3.19,27.2,50,"Sumiu de vista","Karine, Kiwi","PEPT","femea",-23.5605,-46.73732,0.71
+"Desempenho locomotor de Ithomiini",2018-04-20,"NA:NA:NANA","Mechanitis polymnia",NA,1.8,6.84,25.93,0.21,0.54,1.53,26.7,52,NA,"Karine, Kiwi","PEPT","desconhecido",-23.5606666666667,-46.7372016666667,0.26
+"Desempenho locomotor de Ithomiini",2018-04-20,"NA:NA:NANA","Hypothyris euclea",NA,0.74,4.81,14.69,0.4,0.3,1.16,28.5,59,NA,"Karine, Kiwi","PEPT","desconhecido",-23.56063,-46.7370233333333,0.33
+"Desempenho locomotor de Ithomiini",2018-04-20,"NA:NA:NANA","Epityches eupompe",NA,NA,1.81,NA,0.38,0.34,0.75,28.5,52,NA,"Karine, Kiwi","PEPT","desconhecido",-23.5606133333333,-46.73707,NA
+"Desempenho locomotor de Ithomiini",2018-04-20,"NA:NA:NANA","Mechanitis polymnia",NA,0,0.41,1.46,0.35,0.36,0.36,28.2,52,NA,"Karine, Kiwi","PEPT","desconhecido",-23.5606716666667,-46.737195,0.28
+"Desempenho locomotor de Ithomiini",2018-04-20,"NA:NA:NANA","Mechanitis polymnia",NA,0.51,4.88,12.78,0.33,1.24,1.51,28.4,59,NA,"Karine, Kiwi","PEPT","desconhecido",-23.5607183333333,-46.7371233333333,0.38
+"Desempenho locomotor de Ithomiini",2018-04-20,"NA:NA:NANA","Mechanitis polymnia",NA,1.2,14,14.19,0.71,0.1,1.81,29.1,52,NA,"Karine, Kiwi","PEPT","desconhecido",-23.5607733333333,-46.7371133333333,0.99
+"Desempenho locomotor de Ithomiini",2018-04-20,"NA:NA:NANA","Hypothyris ninonia",NA,0,3.76,24.26,0.76,0.5,1.28,29.5,56,NA,"Karine, Kiwi","PEPT","desconhecido",-23.5607516666667,-46.7370733333333,0.15
+"Desempenho locomotor de Ithomiini",2018-04-20,"NA:NA:NANA","Mechanitis lysimnia",NA,0.48,7.1,40,0.46,0.8,1.74,30.3,62,NA,"Karine, Kiwi","PEPT","desconhecido",-23.5608633333333,-46.7372883333333,0.18
+"Desempenho locomotor de Ithomiini",2018-04-20,"NA:NA:NANA","Mechanitis lysimnia",NA,1.36,1.74,4,0.6,0.64,0.84,30.4,58,NA,"Karine, Kiwi","PEPT","desconhecido",-23.5608066666667,-46.737125,0.44
+"Desempenho locomotor de Ithomiini",2018-04-20,"NA:NA:NANA","Hypothyris euclea",NA,0,0.55,2.88,0.51,0.63,0.63,30.5,56,"Foto","Karine, Kiwi","PEPT","desconhecido",-23.56078,-46.7371266666667,0.19
