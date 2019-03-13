@@ -1,61 +1,51 @@
 <!DOCTYPE html>
-
 <html xmlns="http://www.w3.org/1999/xhtml">
-
 <head>
-
-<meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="generator" content="pandoc" />
-
-
-
-
-<title></title>
-
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/united.min.css" rel="stylesheet" />
-<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
-<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
-<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
-<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
-<script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
-<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
-
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="generator" content="pandoc">
+  <title></title>
+  <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="site_libs/bootstrap-3.3.5/css/united.min.css"
+ rel="stylesheet">
+  <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+  <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+  <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+  <script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+  <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet">
+  <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+  <script src="site_libs/navigation-1.1/tabsets.js"></script>
+  <link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet">
+  <script src="site_libs/highlightjs-1.1/highlight.js"></script>
+  <link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css"
+ rel="stylesheet">
 <!-- Global Site Tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106496449-1"></script>
-<script>
+  <script async=""
+ src="https://www.googletagmanager.com/gtag/js?id=UA-106496449-1"></script>
+  <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments)};
   gtag('js', new Date());
 
   gtag('config', 'UA-106496449-1');
-</script>
-
-<link rel='shortcut icon' type='image/x-icon' href='http://candiagallardo.github.io/favicon.ico' />
-
-<style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
+  </script>
+  <link rel="shortcut icon" type="image/x-icon"
+ href="http://candiagallardo.github.io/favicon.ico">
+  <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
   pre:not([class]) {
     background-color: white;
   }
-</style>
-<script type="text/javascript">
+  </style>
+  <script type="text/javascript">
 if (window.hljs && document.readyState && document.readyState === "complete") {
    window.setTimeout(function() {
       hljs.initHighlighting();
    }, 0);
 }
-</script>
-
-
-
-<style type="text/css">
+  </script>
+  <style type="text/css">
 h1 {
   font-size: 34px;
 }
@@ -80,14 +70,8 @@ h6 {
 .table th:not([align]) {
   text-align: left;
 }
-</style>
-
-
-</head>
-
-<body>
-
-<style type = "text/css">
+  </style>
+  <style type="text/css">
 .main-container {
   max-width: 940px;
   margin-left: auto;
@@ -107,10 +91,8 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
-</style>
-
-
-<style type="text/css">
+  </style>
+  <style type="text/css">
 /* padding for bootstrap navbar */
 body {
   padding-top: 51px;
@@ -142,69 +124,8 @@ body {
   padding-top: 56px;
   margin-top: -56px;
 }
-</style>
-
-<script>
-// manage active state of menu based on current page
-$(document).ready(function () {
-  // active menu anchor
-  href = window.location.pathname
-  href = href.substr(href.lastIndexOf('/') + 1)
-  if (href === "")
-    href = "index.html";
-  var menuAnchor = $('a[href="' + href + '"]');
-
-  // mark it active
-  menuAnchor.parent().addClass('active');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
-});
-</script>
-
-
-<div class="container-fluid main-container">
-
-<!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
-
-<!-- code folding -->
-
-
-
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = false;
-    options.smoothScroll = false;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
-
-<style type="text/css">
+  </style>
+  <style type="text/css">
 
 #TOC {
   margin: 25px 0px 20px 0px;
@@ -266,214 +187,337 @@ div.tocify {
   font-size: 0.95em;
 }
 
-</style>
+  </style>
+</head>
+<body>
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
 
-<!-- setup 3col/9col grid for toc_float and main content  -->
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+<div class="container-fluid main-container"><!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script><!-- code folding -->
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = false;
+    options.smoothScroll = false;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script><!-- setup 3col/9col grid for toc_float and main content  -->
 <div class="row-fluid">
 <div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
+<div id="TOC" class="tocify"></div>
 </div>
-</div>
-
 <div class="toc-content col-xs-12 col-sm-8 col-md-9">
-
-
-
-
-<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">Candia-Gallardo</a>
-    </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        <li>
-  <a href="index.html">Home</a>
-</li>
-<li>
-  <a href="about.html">About</a>
-</li>
-<li>
-  <a href="publications.html">Publications</a>
-</li>
-<li>
-  <a href="posts.html">Posts</a>
-</li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li>
-  <a href="https://www.instagram.com/carloscandiagallardo/">
-    <span class="fa fa-instagram fa-2x"></span>
-     
-  </a>
-</li>
-<li>
-  <a href="https://github.com/candiagallardo">
-    <span class="fa fa-github fa-2x"></span>
-     
-  </a>
-</li>
-<li>
-  <a href="Port/index.html">
-    <span class="fa fa-flag-o fa-2x"></span>
-     
-    Português
-  </a>
-</li>
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div><!--/.container -->
-</div><!--/.navbar -->
-
-<div class="fluid-row" id="header">
-
-
-
-
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+<div class="container">
+<div class="navbar-header"> <button type="button"
+ class="navbar-toggle collapsed" data-toggle="collapse"
+ data-target="#navbar"> <span class="icon-bar"></span> <span
+ class="icon-bar"></span> <span class="icon-bar"></span> </button> <a
+ class="navbar-brand" href="index.html">Candia-Gallardo</a> </div>
+<div id="navbar" class="navbar-collapse collapse">
+<ul class="nav navbar-nav">
+  <li> <a href="index.html">Home</a>
+  </li>
+  <li> <a href="about.html">About</a>
+  </li>
+  <li> <a href="publications.html">Publications</a>
+  </li>
+  <li> <a href="posts.html">Posts</a>
+  </li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+  <li> <a href="https://www.instagram.com/carloscandiagallardo/"> <span
+ class="fa fa-instagram fa-2x"></span> </a></li>
+  <li> <a href="https://github.com/candiagallardo"> <span
+ class="fa fa-github fa-2x"></span> </a>
+  </li>
+  <li> <a href="Port/index.html"> <span class="fa fa-flag-o fa-2x"></span>
+Portugu&ecirc;s </a>
+  </li>
+</ul>
 </div>
-
-
-<p><br></br></p>
+<!--/.nav-collapse --> </div>
+<!--/.container --></div>
+<!--/.navbar -->
+<div class="fluid-row" id="header"></div>
+<p><br>
+</p>
 <div id="about" class="section level1">
 <h1>About</h1>
-<table style = "width:85%">
-<tr>
-<td>
-<p align="justify">
-<p><img src="pics/perfil_3.jpg" alt="Carlos' pic" style="float:right;width:150px;border:10;"> I am a biologist with a PhD in Ecology. During my academic training I acquired solid skills in scientific research, quantitative analysis and <strong><a href="https://www.r-project.org/" target="_blank">R</a></strong> programming. As a professional ornithologist I acquired extensive field experience in the Atlantic forest, Cerrado and Amazon biomes.</p>
-My main scientific interests are in population and community ecology, ornithology, data science, conservation biology and chronobiology. I am also interested in philosophy of science and quantitative approaches in general. I support initiatives of free sharing of knowledge, such as <a href = "https://en.wikipedia.org/wiki/Open_source" target="_blank"> open source</a>, <a href="https://en.wikipedia.org/wiki/Free_software", target="_blank"> free software</a>, and <a href="https://en.wikipedia.org/wiki/Creative_Commons", target="_blank">creative commons</a> licenses.
-</p>
-</td>
-<tr>
-<td>
-<p>
-</p>
-</td>
-</tr>
-<tr>
-<td>
-<p align="justify">
-<p>Scroll down for information about my education, teaching and professional experience. Access my <strong><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4779985Y2" target="_blank">CV Lattes here</a></strong> (in portuguese). If you can <strong><a href = "http://shifter.info/forget-all-the-other-reasons-you-should-be-riding-a-bike-this-is-the-one-that-matters/" target="_blank"> go by bicycle</a></strong> - <a href = "http://www.bmj.com/content/357/bmj.j1456" target = "_blank" > <i class="fa fa-bicycle fa-lg" aria-hidden="false"></i></a></p>
+<table style="width: 85%;">
+  <tbody>
+    <tr>
+      <td>
+      <p align="justify"></p>
+      <p><img src="pics/perfil_3.jpg" alt="Carlos' pic"
+ style="float: right; width: 150px;"> I am a biologist with a PhD in
+Ecology. During my academic training I acquired solid skills in
+scientific research, quantitative analysis and <strong><a
+ href="https://www.r-project.org/" target="_blank">R</a></strong>
+programming. As a professional ornithologist I acquired extensive field
+experience in the Atlantic forest, Cerrado and Amazon biomes.</p>
+My main scientific interests are in population and community ecology,
+ornithology, data science, conservation biology and chronobiology. I am
+also interested in philosophy of science and quantitative approaches in
+general. I support initiatives of free sharing of knowledge, such as <a
+ href="https://en.wikipedia.org/wiki/Open_source" target="_blank"> open
+source</a>, <a href="https://en.wikipedia.org/wiki/Free_software" ,=""
+ target="_blank"> free software</a>, and <a
+ href="https://en.wikipedia.org/wiki/Creative_Commons" ,=""
+ target="_blank">creative commons</a> licenses.
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <p></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <p align="justify"></p>
+      <p>Scroll down for information about my education, teaching and
+professional experience. Access my <strong><a
+ href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4779985Y2"
+ target="_blank">CV Lattes here</a></strong> (in portuguese). If you
+can <strong><a
+ href="http://shifter.info/forget-all-the-other-reasons-you-should-be-riding-a-bike-this-is-the-one-that-matters/"
+ target="_blank"> go by bicycle</a></strong> - <a
+ href="http://www.bmj.com/content/357/bmj.j1456" target="_blank"> <i
+ class="fa fa-bicycle fa-lg" aria-hidden="false"></i></a></p>
 Contact: <i class="fa fa-envelope-o"></i> <strong>candiagallardo[at]usp[dot]br</strong>
-</p>
-</td>
-</tr>
+      </td>
+    </tr>
+  </tbody>
 </table>
-<p><br></br></p>
+<p><br>
+</p>
 </div>
 <div id="education" class="section level1">
 <h1>Education</h1>
-<table style="width:88%;">
-<colgroup>
-<col width="8%" />
-<col width="79%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Year</th>
-<th>Degree</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>2017</td>
-<td><strong>PhD in Ecology</strong> at the University of Sao Paulo. PhD Thesis: <a href="http://www.teses.usp.br/teses/disponiveis/41/41134/tde-12072017-084936/pt-br.php"><strong>Population and community dynamics of butterflies and birds along time</strong></a>. Held at <a href="http://ecologia.ib.usp.br/let/doku.php">The Theorethical Ecology Lab</a>. Advisor: Prof. Dr. <a href="http://ecologia.ib.usp.br/let/doku.php?id=engl:prado:start">Paulo Inacio Prado</a>. Supported by Coordination for the Improvement of the Higher Level Personnel (<a href="www.capes.gov.br">CAPES</a>) and Sao Paulo Research Foundation (<a href="www.fapesp.br">FAPESP</a>).</td>
-</tr>
-<tr class="even">
-<td>2011</td>
-<td><strong>Master in Ecology</strong> at the University of Sao Paulo. MSc Thesis: <a href="http://www.teses.usp.br/teses/disponiveis/41/41134/tde-10052011-155405/pt-br.php"><strong>The conservation value of forest corridors for birds in fragmented landscapes</strong></a>. Held at the <a href="http://ecologia.ib.usp.br/lepac/index.php?option=com_content&amp;view=article&amp;id=46&amp;Itemid=11">Landscape Ecology and Conservation Lab</a>. Advisor: Prof. Dr. <a href="http://ecologia.ib.usp.br/lepac/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=45&amp;Itemid=63">Jean Paul Metzger</a>. Supported by Coordination for the Improvement of the Higher Level Personnel (<a href="www.capes.gov.br">CAPES</a>), National Council for Scientific and Technological Development (<a href="www.cnpq.gov.br">CNPq</a>), and Federal Ministry for Education and Research (<a href="https://www.bmbf.de/en/index.html">BMBF</a> - Germany).</td>
-</tr>
-<tr class="odd">
-<td>2004</td>
-<td><strong>Bachelor in Biology</strong> at the University of Sao Paulo. Monography: Effects of forest fragmentation on artificial nests predation. Supported by Sao Paulo Research Foundation (<a href="www.fapesp.br">FAPESP</a>).</td>
-</tr>
-<tr class="even">
-<td>2003</td>
-<td><strong>Internship at the Biological Dynamics of Forest Fragments Project</strong> (<a href="http://pdbff.inpa.gov.br/">BDFFP</a> – <a href="www.inpa.gov.br">INPA</a>/<a href="http://www.stri.si.edu/">Smithsonian Institution</a>) in the program Training for Young Scientists in Amazon. Monography: Polination aspects of Psychotria iodotrichia (Rubiaceae) in primary and secondary forests in central Amazon. Supported by the World Wildlife Fund (WWF) and the State University of New York (SUNY).</td>
-</tr>
-</tbody>
+<table style="width: 88%;">
+  <colgroup><col width="8%"><col width="79%"></colgroup>
+  <thead><tr class="header">
+    <th>Year</th>
+    <th>Degree</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr class="odd">
+      <td>2017</td>
+      <td><strong>PhD in Ecology</strong> at the University of Sao
+Paulo. PhD Thesis: <a
+ href="http://www.teses.usp.br/teses/disponiveis/41/41134/tde-12072017-084936/pt-br.php"><strong>Population
+and community dynamics of butterflies and birds over time</strong></a>.
+Held at <a href="http://ecologia.ib.usp.br/let/doku.php">The
+Theorethical Ecology Lab</a>. Advisor: Prof.&nbsp;Dr. <a
+ href="http://ecologia.ib.usp.br/let/doku.php?id=engl:prado:start">Paulo
+Inacio Prado</a>. Supported by Coordination for the Improvement of the
+Higher Level Personnel (<a href="www.capes.gov.br">CAPES</a>) and Sao
+Paulo Research Foundation (<a href="www.fapesp.br">FAPESP</a>).</td>
+    </tr>
+    <tr class="even">
+      <td>2011</td>
+      <td><strong>Master in Ecology</strong> at the University of Sao
+Paulo. MSc Thesis: <a
+ href="http://www.teses.usp.br/teses/disponiveis/41/41134/tde-10052011-155405/pt-br.php"><strong>The
+conservation value of forest corridors for birds in fragmented
+landscapes</strong></a>. Held at the <a
+ href="http://ecologia.ib.usp.br/lepac/index.php?option=com_content&amp;view=article&amp;id=46&amp;Itemid=11">Landscape
+Ecology and Conservation Lab</a>. Advisor: Prof.&nbsp;Dr. <a
+ href="http://ecologia.ib.usp.br/lepac/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=45&amp;Itemid=63">Jean
+Paul Metzger</a>. Supported by Coordination for the Improvement of the
+Higher Level Personnel (<a href="www.capes.gov.br">CAPES</a>), National
+Council for Scientific and Technological Development (<a
+ href="www.cnpq.gov.br">CNPq</a>), and Federal Ministry for Education
+and Research (<a href="https://www.bmbf.de/en/index.html">BMBF</a> -
+Germany).</td>
+    </tr>
+    <tr class="odd">
+      <td>2004</td>
+      <td><strong>Bachelor in Biology</strong> at the University of Sao
+Paulo. Monography: Effects of forest fragmentation on artificial nests
+predation. Supported by Sao Paulo Research Foundation (<a
+ href="www.fapesp.br">FAPESP</a>).</td>
+    </tr>
+    <tr class="even">
+      <td>2003</td>
+      <td><strong>Internship at the Biological Dynamics of Forest
+Fragments Project</strong> (<a href="http://pdbff.inpa.gov.br/">BDFFP</a>
+&ndash; <a href="www.inpa.gov.br">INPA</a>/<a
+ href="http://www.stri.si.edu/">Smithsonian Institution</a>) in the
+program Training for Young Scientists in Amazon. Monography: Polination
+aspects of Psychotria iodotrichia (Rubiaceae) in primary and secondary
+forests in central Amazon. Supported by the World Wildlife Fund (WWF)
+and the State University of New York (SUNY).</td>
+    </tr>
+  </tbody>
 </table>
-<p><br></br></p>
+<p><br>
+</p>
 </div>
 <div id="teaching-experience" class="section level1">
 <h1>Teaching experience</h1>
-<table style="width:88%;">
-<colgroup>
-<col width="16%" />
-<col width="70%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Year</th>
-<th>Experience</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>2016 &amp; 2017</td>
-<td>Lecturer in the course <strong><a href="https://ornitologiadecampobutantan.wordpress.com/">Field Ornithology - Birds as bioindicators</a></strong> at the <a href="www.butantan.gov.br">Instituto Butantan</a>, Brazil. Lectures given: <strong>Methods for the study of populations and communities</strong>, <strong>Introduction to radiotracking</strong>, and <strong>Data analysis</strong>.</td>
-</tr>
-<tr class="even">
-<td>2009 to 2017</td>
-<td>Invited lecturer in the course <strong><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4779985Y2" target="_blank">BIZ0304 - Diversity, natural history, and conservation of vertebrates in South America</a></strong> (undergraduate level - Biological Sciences) at the University of Sao Paulo. Participation in the lecture <strong>Techniques for studying birds in the field</strong>.</td>
-</tr>
-<tr class="odd">
-<td>2016</td>
-<td>Teaching assistant (monitor - PAE) in the course <strong><a href="http://ecologia.ib.usp.br/bie320/doku.php?id=2016:start" target="_blank">BIE 0320 - Ecology of plant populations and communities</a></strong> (undergraduate level - Biological Sciences) at the University of Sao Paulo.</td>
-</tr>
-<tr class="even">
-<td>2015</td>
-<td>Invicted lecturer at the course <strong><a href="http://ecologia.ib.usp.br/bie5703/doku.php" target="_blank">BIE5730 - Statistical models in population ecology</a></strong> (graduate level - Ecology) at the University of Sao Paulo. Lecture given: <strong>Using RMark for capture-recapture data analysis</strong>.</td>
-</tr>
-</tbody>
+<table style="width: 88%;">
+  <colgroup><col width="16%"><col width="70%"></colgroup>
+  <thead><tr class="header">
+    <th>Year</th>
+    <th>Experience</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr class="odd">
+      <td>2016 &amp; 2017</td>
+      <td>Lecturer in the course <strong><a
+ href="https://ornitologiadecampobutantan.wordpress.com/">Field
+Ornithology - Birds as bioindicators</a></strong> at the <a
+ href="www.butantan.gov.br">Instituto Butantan</a>, Brazil. Lectures
+given: <strong>Methods for the study of populations and communities</strong>,
+      <strong>Introduction to radiotracking</strong>, and <strong>Data
+analysis</strong>.</td>
+    </tr>
+    <tr class="even">
+      <td>2009 to 2017</td>
+      <td>Invited lecturer in the course <strong><a
+ href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4779985Y2"
+ target="_blank">BIZ0304 - Diversity, natural history, and conservation
+of vertebrates in South America</a></strong> (undergraduate level -
+Biological Sciences) at the University of Sao Paulo. Participation in
+the lecture <strong>Techniques for studying birds in the field</strong>.</td>
+    </tr>
+    <tr class="odd">
+      <td>2016</td>
+      <td>Teaching assistant (monitor - PAE) in the course <strong><a
+ href="http://ecologia.ib.usp.br/bie320/doku.php?id=2016:start"
+ target="_blank">BIE 0320 - Ecology of plant populations and communities</a></strong>
+(undergraduate level - Biological Sciences) at the University of Sao
+Paulo.</td>
+    </tr>
+    <tr class="even">
+      <td>2015</td>
+      <td>Invicted lecturer at the course <strong><a
+ href="http://ecologia.ib.usp.br/bie5703/doku.php" target="_blank">BIE5730
+- Statistical models in population ecology</a></strong> (graduate level
+- Ecology) at the University of Sao Paulo. Lecture given: <strong>Using
+RMark for capture-recapture data analysis</strong>.</td>
+    </tr>
+  </tbody>
 </table>
-<p><br></br></p>
+<p><br>
+</p>
 </div>
 <div id="awards" class="section level1">
 <h1>Awards</h1>
-<table style="width:85%">
-<tr>
-<td>
-<p><img src="pics/sick.jpg" alt="Helmut Sick - Ornitologia Brasileira" style="float:right;width:120px;border:10;"></p>
-<ul>
-<li><p><strong>Best Master thesis</strong> defended in 2011 in the Ecology Graduate Program, Institute of Biosciences, University of São Paulo.</p></li>
-<li><p><strong>Helmut Sick Award</strong> - Best poster presentation at the XII Brazilian Ornithology Congress.</p></li>
-<li><strong>Helmut Sick Award</strong> - Second best poster presentation at the XV Brazilian Ornithology Congress.</li>
-</ul>
-</td>
-<tr>
+<table style="width: 85%;">
+  <tbody>
+    <tr>
+      <td>
+      <p><img src="pics/sick.jpg"
+ alt="Helmut Sick - Ornitologia Brasileira"
+ style="float: right; width: 120px;"></p>
+      <ul>
+        <li>
+          <p><strong>Best Master thesis</strong> defended in 2011 in
+the Ecology Graduate Program, Institute of Biosciences, University of
+S&atilde;o Paulo.</p>
+        </li>
+        <li>
+          <p><strong>Helmut Sick Award</strong> - Best poster
+presentation at the XII Brazilian Ornithology Congress.</p>
+        </li>
+        <li><strong>Helmut Sick Award</strong> - Second best poster
+presentation at the XV Brazilian Ornithology Congress.</li>
+      </ul>
+      </td>
+    </tr>
+    <tr>
+    </tr>
+  </tbody>
 </table>
-<p><br></br></p>
+<p><br>
+</p>
 </div>
 <div id="selected-professional-experiences" class="section level1">
 <h1>Selected professional experiences</h1>
-<table style="width:85%">
-<tr>
-<td>
-<ul>
-<li><p><strong>Bird monitoring in primary forest, selective-logged forest and eucalyptus plantations in the Jari river valley, Amazon, Brazil</strong>. Client: Jari Celulose S.A. Consulting company: Ambiens Soluções Ambientais.</p></li>
-<li><p><strong>Bird monitoring around the São Sebastião Port, São Paulo, Brazil</strong>. Client: CODESP. Consulting company: Ambiens Soluções Ambientais &amp; FUNDESPA.</p></li>
-<li><p><strong>Birds, mammals, reptiles and anphibians in reforested areas around Três Irmãos power plant dam, São Paulo, Brazil</strong>. Birds and integrated analysis report. Client: Tijoá Energia S.A. Consulting Company: Ambiens Soluções Ambientais.</p></li>
-<li><p><strong>Bird inventories for the Environmental Impact Assesment of the widening of the BR-101 highway, Espirito Santo, Brasil</strong>. Client: Eco 101. Consulting company: Concremat &amp; Ambiens Soluções Ambientais.</p></li>
-<li><strong>Bird monitoring in the Juruena power plants complex. Mato Grosso, Brazil</strong>. Client: Juruena Participações e Investimentos S.A. &amp; Maggi Energia. Consulting company: JGP Consultoria e Participações Ltda.</li>
-</ul>
-</td>
-</tr>
+<table style="width: 85%;">
+  <tbody>
+    <tr>
+      <td>
+      <ul>
+        <li>
+          <p><strong>Bird monitoring in primary forest,
+selective-logged forest and eucalyptus plantations in the Jari river
+valley, Amazon, Brazil</strong>. Client: Jari Celulose S.A. Consulting
+company: Ambiens Solu&ccedil;&otilde;es Ambientais.</p>
+        </li>
+        <li>
+          <p><strong>Bird monitoring around the S&atilde;o
+Sebasti&atilde;o Port, S&atilde;o Paulo, Brazil</strong>. Client:
+CODESP. Consulting company: Ambiens Solu&ccedil;&otilde;es Ambientais
+&amp; FUNDESPA.</p>
+        </li>
+        <li>
+          <p><strong>Birds, mammals, reptiles and anphibians in
+reforested areas around Tr&ecirc;s Irm&atilde;os power plant dam,
+S&atilde;o Paulo, Brazil</strong>. Birds and integrated analysis
+report. Client: Tijo&aacute; Energia S.A. Consulting Company: Ambiens
+Solu&ccedil;&otilde;es Ambientais.</p>
+        </li>
+        <li>
+          <p><strong>Bird inventories for the Environmental Impact
+Assesment of the widening of the BR-101 highway, Espirito Santo, Brasil</strong>.
+Client: Eco 101. Consulting company: Concremat &amp; Ambiens
+Solu&ccedil;&otilde;es Ambientais.</p>
+        </li>
+        <li><strong>Bird monitoring in the Juruena power plants
+complex. Mato Grosso, Brazil</strong>. Client: Juruena
+Participa&ccedil;&otilde;es e Investimentos S.A. &amp; Maggi Energia.
+Consulting company: JGP Consultoria e Participa&ccedil;&otilde;es Ltda.</li>
+      </ul>
+      </td>
+    </tr>
+  </tbody>
 </table>
 </div>
-
-
-
 </div>
 </div>
-
 </div>
-
 <script>
 
 // add bootstrap table styles to pandoc tables
@@ -486,7 +530,6 @@ $(document).ready(function () {
 
 
 </script>
-
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
   (function () {
@@ -496,6 +539,5 @@ $(document).ready(function () {
     document.getElementsByTagName("head")[0].appendChild(script);
   })();
 </script>
-
 </body>
 </html>
