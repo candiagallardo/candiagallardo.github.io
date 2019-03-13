@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 
@@ -11,7 +11,7 @@
 
 
 
-<title>Candia-Gallardo</title>
+<title></title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -20,9 +20,11 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
-<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
+<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
+<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
 
 <!-- Global Site Tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106496449-1"></script>
@@ -43,10 +45,12 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -100,6 +104,9 @@ img {
 }
 .tabbed-pane {
   padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
 }
 button.code-folding-btn:focus {
   outline: none;
@@ -244,6 +251,7 @@ $(document).ready(function () {
 <h1>Publicações</h1>
 <p>
 </p>
+<p>Rodrigues, R. C., Hasui, E., Assis, J. C. […], Candia-Gallardo, C. et al. 2019. <strong><a href = "papers/Rodrigues_et_al_2019_ecy.2647.pdf" target = "blank"> ATLANTIC BIRD TRAITS: a dataset of bird morphological traits from the Atlantic forests of South America</a></strong>. Ecology ecy.2647.</p>
 <p><img src="http://ars.els-cdn.com/content/image/1-s2.0-S1679007316301554-fx1.jpg" alt="Pyriglena' pic" style="float:right;width:200px;border:10;"> Cornelius, C., M. Awade, C. Candia-Gallardo, K. E. Sieving, and J. P. Metzger. 2017. <strong><a href = "papers/Cornelius_et_al_2017.pdf" target = "_blank">Habitat fragmentation drives inter-population variation in dispersal behavior in a Neotropical rainforest bird</a></strong>. Perspectives in Ecology and Conservation 15:3–9.</p>
 <p>Awade, M., C. Candia-Gallardo, C. Cornelius, and J. P. Metzger. 2017. <strong><a href = "papers/Awade_et_al_2017.pdf" target = "_blank">High Emigration Propensity and Low Mortality on Transfer Drives Female-Biased Dispersal of <em>Pyriglena leucoptera</em> in Fragmented Landscapes</a></strong>. Plos One 12:e0170493.</p>
 <p><img src="http://candiagallardo.github.io/pics/cono_female.jpg" alt="Conothraupis mesoleuca's pic" style="float:right;width:200px;border:10;"> Candia-Gallardo, C., L. F. Silveira, and A. A. Kuniy. 2010. <strong><a href = "papers/Candia-Gallardo_et_al_2010.pdf" target = "_blank">A new population of the Cone-billed Tanager <em>Conothraupis mesoleuca</em>, with information on the biology, behaviour and type locality of the species</a></strong>. Bird Conservation International 20:149–160.</p>

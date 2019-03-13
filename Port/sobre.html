@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 
@@ -11,7 +11,7 @@
 
 
 
-<title>Candia-Gallardo</title>
+<title></title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -23,9 +23,11 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
-<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
+<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
+<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
 
 <!-- Global Site Tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106496449-1"></script>
@@ -46,10 +48,12 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -103,6 +107,9 @@ img {
 }
 .tabbed-pane {
   padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
 }
 button.code-folding-btn:focus {
   outline: none;
@@ -416,18 +423,22 @@ Contato: <i class="fa fa-envelope-o"></i> <strong>candiagallardo[at]usp[dot]br</
 </thead>
 <tbody>
 <tr class="odd">
-<td>2016 &amp; 2017</td>
-<td>Instrutor no curso <strong><a href="https://ornitologiadecampobutantan.wordpress.com/">Ornitologia de Campo - Aves como biodicadores</a></strong> realizado pelo <a href="www.butantan.gov.br">Instituto Butantan</a>. Palestras ministradas: <strong>Métodos para estudos de populações e comunidades</strong>, <strong>Introdução à radiotelemetria</strong> e <strong>Análise de dados</strong>.</td>
+<td>2018 &amp; 2019</td>
+<td>Docente e organizador da disciplina <strong>BIF5716 - Discussão de projetos científicos em Fisiologia</strong> do curso de Pós-graduação em Fisiologia da Universidade de São Paulo.</td>
 </tr>
 <tr class="even">
+<td>2016 a 2018</td>
+<td>Instrutor no curso <strong><a href="https://ornitologiadecampobutantan.wordpress.com/">Ornitologia de Campo - Aves como biodicadores</a></strong> realizado pelo <a href="www.butantan.gov.br">Instituto Butantan</a>. Palestras ministradas: <strong>Métodos para estudos de populações e comunidades</strong>, <strong>Introdução à radiotelemetria</strong> e <strong>Análise de dados</strong>.</td>
+</tr>
+<tr class="odd">
 <td>2009 a 2017</td>
 <td>Palestrante convidado na disciplina <strong><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4779985Y2" target="_blank">BIZ0304 - Diversidade, história natural e conservação de vertebrados na América do Sul</a></strong> do ciclo avançado do curso de Graduação em Ciências Biólogicas da Universidade de São Paulo. Participação na aula <strong>Técnicas para estudo de aves em campo</strong>.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>2016</td>
 <td>Monitor (PAE) na disciplina <strong><a href="http://ecologia.ib.usp.br/bie320/doku.php?id=2016:start" target="_blank">BIE 0320 - Ecologia de populações e comunidades vegetais</a></strong> do ciclo avançado do curso de Graduação em Ciências Biólogicas da Universidade de São Paulo.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>2015</td>
 <td>Palestrante convidado na disciplina <strong><a href="http://ecologia.ib.usp.br/bie5703/doku.php" target="_blank">BIE5730 - Modelos estatísticos em ecologia populacional</a></strong> do curso de Pós-Graduação em Ecologia da Universidade de São Paulo. Aula ministrada: <strong>Usando RMark para análise de dados de captura-recaptura</strong>.</td>
 </tr>
